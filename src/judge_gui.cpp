@@ -393,8 +393,8 @@ void JudgeGui::record_to_file(std::string file_path_name, double t_remain){
         a_win = 1.0;
         b_win = -1.0;
     }else if (_B_win){
-        a_win = 1.0;
-        b_win = -1.0;
+        a_win = -1.0;
+        b_win = 1.0;
     }else{
         a_win = 0.0;
         b_win = 0.0;
